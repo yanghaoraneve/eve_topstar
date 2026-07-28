@@ -1,0 +1,21 @@
+node_modules/
+.next/
+out/
+.DS_Store
+*.log
+*.tsbuildinfo
+.env
+.env.*
+
+# 本地备份与方案设计文件；仓库只保留实际运行工程
+文档/
+代码/
+静态资源/
+
+# 临时截图、压缩包与系统文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+截屏*.png

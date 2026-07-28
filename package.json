@@ -1,0 +1,28 @@
+{
+  "name": "topstar-with-eve",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "eval:content": "tsx src/scripts/topstar-full-eval-v15.ts",
+    "eval:economy": "tsx src/scripts/topstar-economy-eval.ts"
+  },
+  "dependencies": {
+    "next": "14.2.31",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.30",
+    "@types/react": "18.3.23",
+    "@types/react-dom": "18.3.7",
+    "autoprefixer": "10.4.21",
+    "postcss": "8.5.6",
+    "tailwindcss": "3.4.17",
+    "tsx": "4.20.3",
+    "typescript": "5.8.3"
+  }
+}
